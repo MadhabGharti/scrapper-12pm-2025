@@ -15,10 +15,13 @@ URL = "http://books.toscrape.com/"
 # git init
 # git status => if you want to check what are the status of files
 # git diff => if you want to check what are the changes
-# git add .
-# git commit -m "Your message"
-# copy paste git code from github
+# git add .   => track file and folder
+# git commit -m "Your message" # save change
+# copy paste git code from github #
 
+# git add .   => track file and folder
+# git commit -m "Your message" # save change
+# git push => upload changes to github
 
 
 def scrape_books(url):
