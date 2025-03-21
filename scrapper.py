@@ -5,6 +5,21 @@ import json
 
 URL = "http://books.toscrape.com/"
 
+# git install
+# git status
+
+# go to git bash
+# git config --global user.name "Madhab Gharti"
+# git config --global user.email "ghartimadhab@gmail.com"
+
+# git init
+# git status => if you want to check what are the status of files
+# git diff => if you want to check what are the changes
+# git add .
+# git commit -m "Your message"
+# copy paste git code from github
+
+
 
 def scrape_books(url):
     response = requests.get(url)
@@ -31,7 +46,6 @@ def scrape_books(url):
         json.dump(book_list, f, indent=4, ensure_ascii=False)
 
     print("Data saved to books.json")
-
 
 
 
